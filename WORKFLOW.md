@@ -9,15 +9,15 @@
 
 ```mermaid
     flowchart TD
-        S1["Upload or register documents"]
-    S2["Index and normalize content"]
-    S3["Run evidence-backed query"]
-    S4["Review answer with grounding"]
-    S5["Escalate or refine as needed"]
-    S1 --> S2
-    S2 --> S3
-    S3 --> S4
-    S4 --> S5
+        W1["Upload or register documents"]
+    W2["Index and normalize content"]
+    W3["Run evidence-backed query"]
+    W4["Review answer with grounding"]
+    W5["Escalate or refine as needed"]
+    W1 --> W2
+    W2 --> W3
+    W3 --> W4
+    W4 --> W5
 ```
 
 ## Publication boundary
